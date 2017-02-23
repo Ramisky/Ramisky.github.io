@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+            .button:hover {
+                background-color: #3e8e41;
+            }
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+    </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Home</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <div id="overlay">
+        <div class="spinner"></div>
+        </div>
+
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Hackintosh Lab</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="Connect.html">Connect</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="Tutorial.html">Tutorial</a>
+                    <a href="Downloads.html">Downloads</a>
+                    <a href="Connect.html">Connect</a>
+                    </div>
+
+                    <!-- Use any element to open the sidenav -->
+                    <span onclick="openNav()">open</span>
+
+                    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+                    <div id="main">
+                        ...
+                    </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br><br>
+            <h1 class="header center orange-text">Home</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">A Way to make Hackintosh Better.</h5>
+            </div>
+            <div class="row center">
+                <a href="Tutorial.html" id="download-button" class="button">Get Started</a>
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">More Effecient</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a better way to use Hackintosh.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Friendly</h5>
+
+            <p class="light">By using Apple Mac OS as a base we provide an interface more Like Mac OS than Hackintosh.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Made To work just for You</h5>
+
+            <p class="light">We have provided kext for your Laptop,So it's fully Yours.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of school students working on this project like a part time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Downloads</h5>
+          <ul>
+            <li><a class="white-text" href="Downloads.html">10.5 to 10.12</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+           <li><a class="white-text" href="Connect.html">E-Mails</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
